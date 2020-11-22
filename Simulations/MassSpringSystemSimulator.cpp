@@ -149,3 +149,10 @@ void MassSpringSystemSimulator::midpoint(float timestep) {
 
 
 }
+
+Vec3 MassSpringSystemSimulator::computeElasticForces(MassSpringSystemSimulator::spring& spring) {
+
+}
+
+void integratePosition(struct mass_point& mass_point) {}
+void integrateVelocity(struct mass_point& mass_point) {}

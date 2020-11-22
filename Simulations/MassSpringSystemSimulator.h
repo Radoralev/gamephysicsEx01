@@ -40,6 +40,9 @@ public:
 
 	void euler(float timestep);
 	void midpoint(float timestep);
+	Vec3 computeElasticForces(struct spring& spring);
+	void integratePosition(struct mass_point& mass_point);
+	void integrateVelocity(struct mass_point& mass_point);
 
 	// Do Not Change
 	void setIntegrator(int integrator) {
